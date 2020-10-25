@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Complete Responsive Website From Scratch</title>
+    <link rel="stylesheet" href="Complete Responsive Website From Scratch.css">
+</head>
+<body>
+   <div class="container">
+       <header id="navbar">
+       <a href="" class="logo">Good<span>Food</span></a>
+       <ul>
+           <li><a href="" class="active">Home</a></li>
+           <li><a href="">About</a></li>
+           <li><a href="">Menu</a></li>
+           <li><a href="">Contact</a></li>
+       </ul>
+       <span class="menuIcon" onclick="menuToggle()"></span>
+       </header>
+       <div class="content">
+           <div class="bannerText" id="slideshowText">
+               <div class="active">
+                   <h2>Eat healthy <br> Stay healthy</h2>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius eaque facere consequatur, deserunt quia error nam, alias unde incidunt at rem harum quisquam esse sit aliquam. Ea sequi, ipsa repellat.</p>
+                   <a href="#">Read More</a>
+               </div>
+               <div>
+                   <h2>Eat your <br> vegies</h2>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius eaque facere consequatur, deserunt quia error nam, alias unde incidunt at rem harum quisquam esse sit aliquam. Ea sequi, ipsa repellat.</p>
+                   <a href="#">Read More</a>
+               </div>
+               <div>
+                   <h2>Good <br> food</h2>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius eaque facere consequatur, deserunt quia error nam, alias unde incidunt at rem harum quisquam esse sit aliquam. Ea sequi, ipsa repellat.</p>
+                   <a href="#">Read More</a>
+               </div>
+           </div>
+           <div class="bannerImg" id="slideshow">
+               <img src="pexels-photo-1.jpeg" class="active">
+               <img src="pexels-photo-2.jpeg">
+               <img src="pexels-photo-3.jpeg">
+           </div>
+       </div>
+       <div class="icons">
+           <ul class="sci">
+               <li><a href="#"><img src="facebook.png"></a></li>
+               <li><a href="#"><img src="twitter.png"></a></li>
+               <li><a href="#"><img src="instagram.png"></a></li>
+           </ul>
+           <ul class="controls">
+               <li><img src="Back-Arrow-Left-.png" onclick="prevSlide(); prevSlideText()"></li>
+               <li><img src="chevron-right-512.png" onclick="nextSlide(); nextSlideText()"></li>
+           </ul>
+       </div>
+   </div>
+   <script src="https://kit.fontawesome.com/a177838891.js"></script>
+    <script src="Complete Responsive Website From Scratch.js"></script>
+</body>
+</html>
